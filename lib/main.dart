@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_color_plugin/flutter_color_plugin.dart';
 
 void main() => runApp(MyApp());
 
@@ -93,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
+              style: TextStyle(color: ColorUtil.color('ff0000')),
             ),
             Text(
               '$_counter',
